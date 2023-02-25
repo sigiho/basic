@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+    <title>오디오 비디오 구현</title>
+</head>
+
+<body>
+    <h1>멀티미디어</h1>
+    <h2>video</h2>
+    <!-- <video src="video/vivaldi.mp4" controls muted poster="images/vivaldi.jpg">
+        <span>이 브라우저는 video를 지원하지 않습니다.</span>
+    </video> -->
+    <video controls muted poster="images/vivaldi.jpg">
+        <source src="video/vivaldi.mp4" type="video/mp4">
+        <source src="video/vivaldi.webm" type="video/webm">
+        <source src="video/vivaldi.ogg" type="video/ogg">
+        <span>이 브라우저는 video를 지원하지 않습니다.</span>
+    </video>
+    <!-- <audio src="audio/Honey_Bee_01_web.mp3" controls>
+        <span>이 브라우저는 mp3를 지원하지 않습니다.</span>
+    </audio> -->
+    <audio controls>
+        <source src="audio/Honey_Bee_01_web.mp3" type="audio/mp3">
+        <source src="audio/Honey_Bee_01_web.ogg" type="audio/ogg">
+        <span>이 브라우저는 mp3를 지원하지 않습니다.</span>
+    </audio>
+
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mBXBOLG06Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <hr>
+    <iframe src="https://player.vimeo.com/video/799359628?h=a6494c38ed" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>
